@@ -1,0 +1,10 @@
+name: Slogan Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello Slogan"
+      - name: Print Goodbye
+        run: echo "Say goodbye"
